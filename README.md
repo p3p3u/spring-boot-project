@@ -12,7 +12,7 @@
 
 **POST** `/api/tasks` добавить задачу
 
-**GET**  `/api/tasks/get` получить все задачи
+**GET**  `/api/tasks/get` получить все задачи\
 **GET** `/api/tasks/{id}` получить задачу по ID
 **GET** `/api/tasks` получить задачу по имени
 **GET** `/api/tasks/filter` получить задачу по имени и статусу
