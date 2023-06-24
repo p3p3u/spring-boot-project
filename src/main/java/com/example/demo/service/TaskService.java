@@ -24,8 +24,8 @@ public class TaskService {
         return (List<Task>) taskRepository.findAll();
     }
 
-    public void addTask(Task task) {
-        taskRepository.save(task);
+    public Task addTask(Task task) {
+        return taskRepository.save(task);
     }
 
     public void deleteById(Long id) {
